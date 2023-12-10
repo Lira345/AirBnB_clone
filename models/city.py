@@ -1,14 +1,9 @@
 #!/usr/bin/python3
-"""Define the city class"""
+""" City Module for HolbertonBNB project """
 from models.base_model import BaseModel
 
+
 class City(BaseModel):
-    """This represents the city class
-
-    Attributes:
-         state_id (str): Pointer to state id.
-         name (str): Pointer to the name of the city.
-    """
-
+    """ The city class, contains the state ID and name """
     state_id = ""
     name = ""

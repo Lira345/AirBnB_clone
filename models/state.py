@@ -1,12 +1,8 @@
 #!/usr/bin/python3
-"""Define the State class"""
+""" State Module for HolbetonBNB project """
 from models.base_model import BaseModel
 
+
 class State(BaseModel):
-    """The description of the state
-
-    Attributes:
-        name (str): The pointer to the name of the state.
-    """
-
+    """ State class """
     name = ""
